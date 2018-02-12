@@ -1,0 +1,47 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"都市公園カタログ",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"UrbanparkIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "公園",
+                        "公園を教えて"
+                    ]
+                },
+                {
+                    "name":"FindByPlaceIntent",
+                    "slots":[
+                        {
+                            "name":"place",
+                            "type":"AMAZON.City"
+                        }
+                    ],
+                    "samples":[
+                        "{place} の公園",
+                        "{place} にある公園",
+                        "{place}",
+                        "{place} の公園を教えて" 
+                    ]
+                }
+            ]
+        }
+    }
+}

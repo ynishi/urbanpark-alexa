@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.cd5b7a96-28f6-48ac-bcac-ef0b36969699",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-urbanpark-alexa-default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
